@@ -9,5 +9,5 @@ wget http://ftp.us.debian.org/debian/pool/main/r/rails/ruby-activemodel_6.0.3.7+
 wget http://ftp.us.debian.org/debian/pool/main/r/rails/ruby-activerecord_6.0.3.7+dfsg-2_all.deb
 
 ##Installation:
-apt install ruby-tzinfo ruby-concurrent ruby-i18n ruby-zeitwerk
-dpkg -i ruby-*.deb
+apt install ruby-tzinfo ruby-concurrent ruby-i18n ruby-zeitwerk -y
+dpkg -i ruby*.deb
